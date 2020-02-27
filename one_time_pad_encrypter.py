@@ -1,4 +1,11 @@
-from random import randint
+import os
+import math
+
+def fshift():
+    x = os.urandom(1)
+    list(x)
+    y = x[0]/10
+    return math.floor(y)
 
 message = input('Podaj tekst do zaszyfrowania:')
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -7,7 +14,7 @@ encrypted, shftLst = [], []
 
 for i in message:
     i = i.lower()
-    shift = randint(0,25)
+    shift = fshift()
     shftLst.append(shift)
     if i not in punct:
         encrypted.append(alphabet[alphabet.index(i)-(26-shift)])
