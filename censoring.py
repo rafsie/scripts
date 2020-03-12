@@ -1,16 +1,13 @@
-from string import punctuation
-sentence = input("Wprowadź zdanie:")
+# Asterisks censoring program keeping the size of characters and punctuation marks.
+# Sample sentence: Oh shoot, I thought I had the dang problem figured out. Darn it. Oh well, it was a heck of a freakin try.
 
-for c in punctuation:
-    sentence = sentence.replace(c, ' ' + c)
+sentence = input("Enter the sentence:")
 
-words = sentence.split()
 curse = ['darn', 'dang', 'freakin', 'heck', 'shoot']
-censored = []
 
-for word in words:
-    if word.lower() in curse:
-        word = '*' * len(word)
-    censored.append(word)
-str_censored = ' '.join(censored)
-print(str_censored)
+for word in curse:
+    if word in sentence.lower():
+        word_index = sentence.lower().index(word)
+        sentence = sentence.replace((sentence[word_index:word_index + len(word)]), "*" * len(word))
+
+print(sentence)
