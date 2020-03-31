@@ -7,7 +7,7 @@ start_time1 = time.time()
 for i in range(100000):
     names1 = ["Łukasz", "Ścibor", "Stefania", "Darek", "Agnieszka", "Zyta", "Órszula", "Świetopełk"]
     names1.sort()
-    #print(names1)
+print("Sortowanie 1:", names1)
 
 end_time1 = time.time()
 
@@ -32,7 +32,7 @@ start_time2 = time.time()
 for i in range(100000):
     L = [Lukasz, Scibor, Stefania, Darek, Agnieszka, Zyta, Orszula, Swietopelk]
     L.sort(key=lambda x: x.name)
-    #print([item.name for item in L])
+print("Sortowanie 2:",[item.name for item in L])
 
 end_time2 = time.time()
 
@@ -44,16 +44,16 @@ for i in range(100000):
     names3 = ["Łukasz", "Ścibor", "Stefania", "Darek", "Agnieszka", "Zyta", "Órszula", "Świetopełk"]
     locale.setlocale(locale.LC_ALL, "pl_PL.UTF-8")
     names3.sort(key=locale.strxfrm)
-    #print(names2)
+print("Sortowanie 3:", names3)
 
 end_time3 = time.time()
 
 
 elapsed_time1 = end_time1-start_time1
-print("Czas sortowania 1:", elapsed_time1, "s")
+print("\nCzas sortowania 1:", elapsed_time1, "sek.")
 
 elapsed_time2 = end_time2-start_time2
-print("Czas sortowania 2:", elapsed_time2, "s")
+print("Czas sortowania 2:", elapsed_time2, "sek.")
 
 elapsed_time3 = end_time3-start_time3
-print("Czas sortowania 3:", elapsed_time3, "s")
+print("Czas sortowania 3:", elapsed_time3, "sek.")
