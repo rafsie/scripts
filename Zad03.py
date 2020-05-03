@@ -1,4 +1,4 @@
-# Zad. 3. (1 pkt)
+# Zad. 1.3 (1 pkt)
 # Napisz program wczytujący z wiersza poleceń liczbę całkowitą 3-cyfrową,
 # z opcjonalnym znakiem '-' (minus) na początku, wypisujący słownie tę liczbę
 # (w języku polskim, ale w stylu 'cyfra po cyfrze') na komponencie typu. Przykłady:
