@@ -1,3 +1,6 @@
+# Zad. 3.3 (1 pkt)
+# Korzystając z Date and Time API Javy 8 (opisane skrótowo w Java_2020_03.ppt, S76+) policz: a, b, c, d.
+
 import datetime
 
 
