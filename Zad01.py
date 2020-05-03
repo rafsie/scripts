@@ -1,4 +1,4 @@
-# Zad. 1. (1 pkt)
+# Zad. 1.1 (1 pkt)
 # W kodzie programu mamy zmienną: int liczba = 0b1101_1000;
 # Napisz program konwertujący tę liczbę na system 10-tny, 3-kowy lub 16-kowy (w zależności od wyboru użytkownika).
 # Program ma wczytywać podstawę w postaci tekstowej: „dziesięć”, „trzy” lub „szesnaście”
