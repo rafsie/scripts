@@ -1,3 +1,8 @@
+# Zad. 2.3 (1.5 pkt) 
+# Narysuj w konsoli, z wykorzystaniem rekurencji, pionowa linijke o zadanych
+# parametrach: (dlugosc w danych jednostkach, liczba poziomow zagniezdzen).
+# Podzialka ma byc „dwukierunkowa”, co widac na obrazku ponizej.
+
 class Ruler:
     def __init__(self, num_inches, major_length):
         self.__num_inches = num_inches
