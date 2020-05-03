@@ -61,3 +61,4 @@ print("Czas sortowania 2:", elapsed_time2, "sek.")
 
 elapsed_time3 = end_time3-start_time3
 print("Czas sortowania 3:", elapsed_time3, "sek.")
+
