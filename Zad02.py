@@ -1,4 +1,4 @@
-# Zad. 2. (1 pkt)
+# Zad. 1.2 (1 pkt)
 # Napisz funkcję, która analizuje numer PESEL i wyciąga datę urodzenia oraz płeć danej osoby.
 # Te dane są zwracane jako obiekt odpowiedniej (utworzonej) klasy.
 # Przekazany do funkcji argument może być niepoprawny jako PESEL, też obsłuż taką sytuację
