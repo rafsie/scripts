@@ -1,10 +1,10 @@
-Zad. 3.2 (1,5 pkt)
-Podstawową modelu ma być interfejs Publikacja, w którym są deklaracje metod zwracających autora, 
-tytuł i liczbę stron publikacji. Publikację implementuje klasa konkretna Ksiazka (zawierająca 
-odpowiednie pola, czyli posiadająca stan). Dla książki k przedefiniuj m.in. funkcję toString(…), 
-tak aby instrukcja: System.out.println(k); wyświetlała tekst w rodzaju:
-| Adam Mickiewicz | Pan Tadeusz | 340 |
-Przyklad uzycia dekoratorow w Pythonie:
+# Zad. 3.2 (1,5 pkt)
+# Podstawową modelu ma być interfejs Publikacja, w którym są deklaracje metod zwracających autora, 
+# tytuł i liczbę stron publikacji. Publikację implementuje klasa konkretna Ksiazka (zawierająca 
+# odpowiednie pola, czyli posiadająca stan). Dla książki k przedefiniuj m.in. funkcję toString(…), 
+# tak aby instrukcja: System.out.println(k); wyświetlała tekst w rodzaju:
+# | Adam Mickiewicz | Pan Tadeusz | 340 |
+# Przyklad uzycia dekoratorow w Pythonie:
 
 def decorator(argument):
     def book_decorator(func):
