@@ -1,4 +1,4 @@
-# Zad. 2.2
+# Zad. 2.2 (1 pkt)
 # Napisz klase zawierajaca metody sortujace napisy z uwzglednieniem 
 # alfabetu polskiego (np. „Łukasz” ma byc miedzy „Lucyna” a „Marek”).
 
