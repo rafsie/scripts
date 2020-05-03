@@ -1,4 +1,4 @@
-Zad. 5.1 (0,5 pkt)
+# Zad. 5.1 (0,5 pkt)
 # Napisz program tworzacy 10 watków, kazdy tylko wypisujacy: Hello from task x, gdzie x
 # bedzie jego numerem (0..9), ale jako pierwszy ma wypisac swój komunikat watek ostatni
 # (tj. nr 9), potem przedostatni, itd. do pierwszego.
