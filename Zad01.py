@@ -30,3 +30,4 @@ elif base == 'szesnascie':
     print(result)
 else:
     print("Niepoprwana podstawa!")
+    
