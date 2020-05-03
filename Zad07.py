@@ -1,3 +1,9 @@
+# Zad. 3.1 (1,5 pkt)
+# Zaimplementuj test ze znajomości słówek angielskich. Baza ma liczyć 10 pytań, z których do testu 
+# losujemy bez powtórzeń 5. „Pytaniem” ma być słowo polskie, odpowiedzią – wpisywane z tzw. palca, 
+# ale w okienku dialogowym (z użyciem JavaFX lub Swing), słowo angielskie. Na końcu testu należy 
+# podać wynik (tj. ile pytań poprawnych) oraz zużyty czas, z dokładnością do 0,01s.
+
 import sys
 import json
 import random
