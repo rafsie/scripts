@@ -1,4 +1,4 @@
-# Zad. 4. (1.5 pkt)
+# Zad. 2.1 (1.5 pkt)
 # Zaimplementuj funkcje double LevQWERTY(String s1, String s2), która zwraca ważoną
 # odległość Levenshteina miedzy napisami s1 i s2, gdzie wagi zależne są od wzajemnego
 # położenia pary znaków na klawiaturze. Konkretniej, odl. Levenshteina bazuje na 3
